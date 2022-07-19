@@ -1,0 +1,82 @@
+{
+  "hidefiles.configurationType": "local",
+  "hidefiles.globalConfig": {
+    "profiles": [
+      {
+        "name": "Default",
+        "detail": "",
+        "description": "Test",
+        "hidden": [
+          ".vscode/",
+          "i18n.json",
+          "next-env.d.ts",
+          ".prettierrc",
+          "next.config.ts",
+          "package-lock.json",
+          "postcss.config.js",
+          "README.md",
+          "tailwind.config.js",
+          "yarn.lock",
+          "tsconfig.json",
+          "postcss.config.js",
+          "node_modules/",
+          ".next/",
+          "public/",
+          ".eslintrc.json",
+          ".gitignore",
+          "postcss.config.js",
+          "postcss.config.js",
+          "package.json",
+          "next.config.js",
+          ".env",
+          ".env.example",
+          "LICENSE",
+          "jest.config.js",
+          ".eslintignore",
+          "jest.setup.js"
+        ],
+        "peek": [
+          "next.config.ts",
+          "public/"
+        ]
+      },
+      {
+        "name": "Strict",
+        "detail": "Hide everything not immediately required",
+        "hidden": [
+          "$Default"
+        ]
+      }
+    ]
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    ".vscode/": true,
+    "i18n.json": true,
+    "next-env.d.ts": true,
+    ".prettierrc": true,
+    "package-lock.json": true,
+    "postcss.config.js": true,
+    "README.md": true,
+    "tailwind.config.js": true,
+    "yarn.lock": true,
+    "tsconfig.json": true,
+    "node_modules/": true,
+    ".next/": true,
+    ".eslintrc.json": true,
+    ".gitignore": true,
+    "package.json": true,
+    "next.config.js": true,
+    ".env": true,
+    ".env.example": true,
+    "LICENSE": true,
+    "jest.config.js": true,
+    ".eslintignore": true,
+    "jest.setup.js": true
+  },
+  "hidefiles.selectedProfile": "Default"
+}
